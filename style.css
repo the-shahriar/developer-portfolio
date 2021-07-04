@@ -3,8 +3,12 @@ body{
     margin: 0;
 }
 
-h1, h2{
+h1{
     font-size: 50px;
+}
+
+h2{
+    font-size: 40px;
 }
 
 .dev-name span{
@@ -36,6 +40,7 @@ h1, h2{
     padding: 10px 40px;
     color: white;
     border-radius: 6px;
+    margin-top: 50px;
 }
 
 .dream-big{
@@ -45,3 +50,34 @@ h1, h2{
     background-position: right;
 }
 
+.exp-flex{
+    display: flex;
+    margin-bottom: 150px;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+}
+
+.exp-flex h3{
+    color: orange;
+}
+
+.experience-item{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 0 20px;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    border-left: 8px solid orange;
+}
+
+.experience-item:nth-child(2){
+    border-left: 8px solid;
+    border-image: linear-gradient(#0063FF, cyan);
+    border-image-slice: 1;
+}
+
+footer p{
+    text-align: center;
+    color: gray;
+}
